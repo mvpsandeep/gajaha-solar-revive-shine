@@ -28,7 +28,7 @@ const ContactPage = () => {
               <CardContent className="p-0">
                 <MapPin className="h-12 w-12 text-orange-500 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Address</h3>
-                <p className="text-gray-600 text-sm">Baluwatar, Kathmandu, Nepal</p>
+                <p className="text-gray-600 text-sm">Greater Noida, Uttar Pradesh, India</p>
               </CardContent>
             </Card>
             
@@ -36,7 +36,7 @@ const ContactPage = () => {
               <CardContent className="p-0">
                 <Phone className="h-12 w-12 text-orange-500 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Phone</h3>
-                <p className="text-gray-600 text-sm">+977-1-4419245</p>
+                <p className="text-gray-600 text-sm">+91-7065553300</p>
               </CardContent>
             </Card>
             

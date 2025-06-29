@@ -19,8 +19,8 @@ const Footer = () => {
                 </h3>
               </div>
               <p className="text-gray-300 text-lg mb-6 max-w-md">
-                Leading Nepal's renewable energy revolution with comprehensive solar power solutions. 
-                Powering your future with clean, sustainable, and reliable solar energy systems.
+                Leading India's renewable energy revolution from Greater Noida with comprehensive solar power solutions. 
+                Powering your future with clean, sustainable, and reliable solar energy systems across North India.
               </p>
               <div className="flex space-x-4">
                 <button className="p-3 bg-orange-500 text-white rounded-full hover:bg-orange-600 transition-colors">
@@ -58,13 +58,17 @@ const Footer = () => {
                   <MapPin className="h-5 w-5 text-orange-500 mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-medium">Gajaha Solar Power Pvt. Ltd.</p>
-                    <p>Baluwatar, Kathmandu</p>
-                    <p>Nepal</p>
+                    <p>3rd Floor - 308, Meridian View Plaza</p>
+                    <p>Commercial Belt, Alpha - 1, Greater Noida</p>
+                    <p>Uttar Pradesh, Pincode - 201308, India</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-orange-500" />
-                  <p>+977-1-4419245</p>
+                  <div>
+                    <p>+91-7065553300/22</p>
+                    <p>0120-44903749</p>
+                  </div>
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-orange-500" />
@@ -81,7 +85,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-center md:text-left">
-              &copy; 2024 Gajaha Solar Power Pvt. Ltd. All rights reserved. | Powering Nepal with Clean Energy
+              &copy; 2024 Gajaha Solar Power Pvt. Ltd. All rights reserved. | Powering India with Clean Energy
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-orange-500 transition-colors">Privacy Policy</a>

@@ -5,25 +5,32 @@ import { Sun, Linkedin, Mail } from "lucide-react";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Mr. Arjun Maharjan",
-      position: "Chairman/CEO",
-      experience: "20+ years in renewable energy sector",
+      name: "Dr. D.N. Singh",
+      position: "President",
+      experience: "Distinguished leader with extensive experience in renewable energy sector",
       image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      description: "Visionary leader driving Nepal's solar revolution"
+      description: "Visionary leader driving India's solar revolution"
     },
     {
-      name: "Mr. K.R. Pandeya",
-      position: "Managing Director",
-      experience: "18+ years in solar technology and business development",
+      name: "Mr. Kuldeep Kumar",
+      position: "Founder and CEO",
+      experience: "Pioneering entrepreneur with deep expertise in solar technology and business development",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      description: "Strategic business leader with deep technical expertise"
+      description: "Founding leader with strategic vision for sustainable energy"
     },
     {
-      name: "Mr. Anish Sharma",
-      position: "General Manager - Technical",
-      experience: "15+ years in solar project management and engineering",
+      name: "Mr. Vijay Kumar",
+      position: "Chief Adviser",
+      experience: "Strategic advisor with comprehensive knowledge in solar project management",
       image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      description: "Technical excellence and project delivery specialist"
+      description: "Strategic excellence and industry expertise specialist"
+    },
+    {
+      name: "Miss Anupama Singh",
+      position: "Director - HR",
+      experience: "Human resources leader focused on building exceptional teams in renewable energy",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      description: "HR excellence and organizational development leader"
     }
   ];
 
@@ -37,11 +44,11 @@ const Team = () => {
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Meet the experienced professionals who lead Gajaha Solar Power with vision, 
-            expertise, and unwavering commitment to renewable energy excellence.
+            expertise, and unwavering commitment to renewable energy excellence in India.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {teamMembers.map((member, index) => (
             <Card key={index} className="text-center hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden group">
               <div className="relative">

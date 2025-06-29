@@ -24,7 +24,7 @@ const Hero = () => {
                 <h1 className="text-5xl font-bold text-gray-800">
                   Gajaha Solar<span className="text-orange-500"> Power</span>
                 </h1>
-                <p className="text-lg text-gray-600 mt-2">Leading Solar Solutions in Nepal</p>
+                <p className="text-lg text-gray-600 mt-2">Leading Solar Solutions in India</p>
               </div>
             </div>
             
@@ -34,8 +34,9 @@ const Hero = () => {
             </h2>
             
             <p className="text-xl text-gray-600 mb-8 max-w-2xl animate-fade-in">
-              Transform your energy future with our comprehensive solar solutions. From residential rooftops 
-              to large-scale commercial installations, we deliver clean, reliable, and cost-effective solar power systems.
+              Transform your energy future with India's premier solar solutions. From residential rooftops 
+              to large-scale commercial installations, we deliver clean, reliable, and cost-effective solar power systems 
+              across Greater Noida and beyond.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
@@ -51,15 +52,15 @@ const Hero = () => {
             
             <div className="grid grid-cols-3 gap-8 max-w-md mx-auto lg:mx-0">
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-500">20+</div>
+                <div className="text-3xl font-bold text-orange-500">15+</div>
                 <div className="text-sm text-gray-600">Years Experience</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-500">1000+</div>
+                <div className="text-3xl font-bold text-orange-500">2000+</div>
                 <div className="text-sm text-gray-600">Happy Customers</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-orange-500">50MW+</div>
+                <div className="text-3xl font-bold text-orange-500">100MW+</div>
                 <div className="text-sm text-gray-600">Installed Capacity</div>
               </div>
             </div>

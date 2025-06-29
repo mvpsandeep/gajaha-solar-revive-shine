@@ -6,21 +6,21 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       name: "Rajesh Sharma",
-      location: "Kathmandu",
+      location: "Greater Noida",
       text: "Gajaha Solar Power transformed our home with their professional solar installation. Our electricity bills have dropped by 80% and the system works flawlessly.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
     },
     {
-      name: "Sunita Poudel",
-      location: "Pokhara",
+      name: "Sunita Patel",
+      location: "Delhi NCR",
       text: "Excellent service from consultation to installation. The team was professional, knowledgeable, and completed the project on time. Highly recommended!",
       rating: 5,
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"
     },
     {
-      name: "Bikash Thapa",
-      location: "Bharatpur",
+      name: "Vikash Kumar",
+      location: "Ghaziabad",
       text: "The commercial solar system for our factory has exceeded expectations. Great ROI and excellent after-sales support from the Gajaha Solar team.",
       rating: 5,
       image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80"

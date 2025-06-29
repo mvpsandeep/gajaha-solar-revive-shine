@@ -6,25 +6,25 @@ const StatsSection = () => {
   const stats = [
     {
       icon: Zap,
-      number: "50MW+",
+      number: "100MW+",
       label: "Solar Power Installed",
       description: "Clean energy generating capacity"
     },
     {
       icon: Users,
-      number: "1000+",
+      number: "2000+",
       label: "Happy Customers",
-      description: "Satisfied clients across Nepal"
+      description: "Satisfied clients across India"
     },
     {
       icon: Award,
-      number: "20+",
+      number: "15+",
       label: "Years Experience",
-      description: "Decades of solar expertise"
+      description: "Decade and a half of solar expertise"
     },
     {
       icon: TreePine,
-      number: "10K+",
+      number: "25K+",
       label: "Trees Equivalent",
       description: "CO2 emissions prevented annually"
     }

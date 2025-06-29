@@ -14,27 +14,28 @@ const About = () => {
             </div>
             
             <p className="text-lg text-gray-600 mb-6">
-              Gajaha Solar Power is a leading renewable energy company specializing in comprehensive 
-              solar power solutions. We are committed to providing sustainable, reliable, and 
-              cost-effective solar energy systems for residential, commercial, and industrial applications.
+              Gajaha Solar Power Pvt. Ltd. is India's leading renewable energy company, headquartered in Greater Noida. 
+              We specialize in comprehensive solar power solutions, delivering sustainable, reliable, and 
+              cost-effective solar energy systems for residential, commercial, and industrial applications across India.
             </p>
             
             <p className="text-lg text-gray-600 mb-8">
-              Our mission is to accelerate the adoption of clean energy by delivering high-quality 
+              Our mission is to accelerate India's transition to clean energy by providing world-class 
               solar installations, exceptional customer service, and innovative energy solutions 
-              that contribute to a greener future for generations to come.
+              that contribute to a greener future for generations to come. With our state-of-the-art facility 
+              in Greater Noida, we serve clients across North India and beyond.
             </p>
             
             <div className="grid grid-cols-2 gap-6">
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-bold text-orange-500 mb-2">1000+</div>
+                  <div className="text-3xl font-bold text-orange-500 mb-2">2000+</div>
                   <div className="text-gray-600">Projects Completed</div>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-bold text-orange-500 mb-2">20+</div>
+                  <div className="text-3xl font-bold text-orange-500 mb-2">15+</div>
                   <div className="text-gray-600">Years Experience</div>
                 </CardContent>
               </Card>

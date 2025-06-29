@@ -58,9 +58,10 @@ const Contact = () => {
                 </div>
                 <p className="text-gray-600 text-lg">
                   Gajaha Solar Power Pvt. Ltd.<br />
-                  Baluwatar, Kathmandu<br />
-                  Nepal<br />
-                  P.O. Box: 12345
+                  3rd Floor - 308, Meridian View Plaza<br />
+                  Commercial Belt, Alpha - 1, Greater Noida<br />
+                  Uttar Pradesh, Pincode - 201308<br />
+                  India
                 </p>
               </CardContent>
             </Card>
@@ -74,9 +75,9 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold text-gray-900">Call Us</h3>
                 </div>
                 <p className="text-gray-600 text-lg">
-                  <strong>Office:</strong> +977-1-4419245<br />
-                  <strong>Mobile:</strong> +977-9851234567<br />
-                  <strong>Emergency:</strong> +977-9801234567
+                  <strong>Mobile:</strong> +91-7065553300<br />
+                  <strong>Mobile:</strong> +91-7065553322<br />
+                  <strong>Office:</strong> 0120-44903749
                 </p>
               </CardContent>
             </Card>
@@ -106,8 +107,9 @@ const Contact = () => {
                   <h3 className="text-xl font-semibold text-gray-900">Business Hours</h3>
                 </div>
                 <p className="text-gray-600 text-lg">
-                  <strong>Sunday - Friday:</strong> 9:00 AM - 6:00 PM<br />
+                  <strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM<br />
                   <strong>Saturday:</strong> 10:00 AM - 4:00 PM<br />
+                  <strong>Sunday:</strong> Closed<br />
                   <strong>Emergency Support:</strong> 24/7 Available
                 </p>
               </CardContent>
