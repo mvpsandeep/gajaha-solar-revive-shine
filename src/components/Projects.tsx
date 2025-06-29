@@ -5,22 +5,40 @@ import { Sun } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Residential Solar Installation",
-      location: "Kathmandu Valley",
-      capacity: "10 kW",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      title: "Residential Rooftop Installation",
+      location: "Suburban Home",
+      capacity: "8.5 kW",
+      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     },
     {
-      title: "Commercial Solar Plant",
-      location: "Pokhara",
-      capacity: "50 kW",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      title: "Commercial Office Building",
+      location: "Downtown Business District",
+      capacity: "45 kW",
+      image: "https://images.unsplash.com/photo-1497440001374-f26997328c1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     },
     {
-      title: "Industrial Solar System",
-      location: "Bharatpur",
-      capacity: "100 kW",
-      image: "https://images.unsplash.com/photo-1492321936769-b49830bc1d1e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      title: "Industrial Solar Farm",
+      location: "Manufacturing Facility",
+      capacity: "120 kW",
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: "Community Solar Project",
+      location: "Municipal Building",
+      capacity: "75 kW",
+      image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: "Agricultural Solar Installation",
+      location: "Farm Operations",
+      capacity: "25 kW",
+      image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      title: "Educational Institution",
+      location: "School Campus",
+      capacity: "60 kW",
+      image: "https://images.unsplash.com/photo-1581091870621-fee9725cd7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     }
   ];
 
@@ -33,8 +51,8 @@ const Projects = () => {
             <h2 className="text-4xl font-bold text-gray-900">Our Projects</h2>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore some of our successful solar installations across Nepal. 
-            Each project demonstrates our commitment to quality and innovation.
+            Explore our portfolio of successful solar installations across various sectors. 
+            Each project showcases our commitment to quality and innovation.
           </p>
         </div>
         

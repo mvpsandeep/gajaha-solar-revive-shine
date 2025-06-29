@@ -5,22 +5,22 @@ import { Sun } from "lucide-react";
 const Team = () => {
   const teamMembers = [
     {
-      name: "Mr. Kiran Ghimire",
+      name: "Mr. Arjun Maharjan",
+      position: "Chairman/CEO",
+      experience: "20+ years in renewable energy",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      name: "Mr. K.R. Pandeya",
       position: "Managing Director",
-      experience: "15+ years in renewable energy",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      experience: "18+ years in solar technology",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     },
     {
-      name: "Ms. Priya Sharma",
-      position: "Technical Director",
-      experience: "12+ years in solar technology",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-    },
-    {
-      name: "Mr. Rajesh Patel",
-      position: "Project Manager",
-      experience: "10+ years in project management",
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      name: "Mr. Anish Sharma",
+      position: "General Manager - Technical",
+      experience: "15+ years in project management",
+      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     }
   ];
 
@@ -33,8 +33,8 @@ const Team = () => {
             <h2 className="text-4xl font-bold text-gray-900">Our Team</h2>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Meet our experienced team of solar energy professionals who are dedicated 
-            to delivering exceptional results for every project.
+            Meet our experienced leadership team of solar energy professionals who drive 
+            innovation and deliver exceptional results for every project.
           </p>
         </div>
         

@@ -15,15 +15,15 @@ const Contact = () => {
             <h2 className="text-4xl font-bold text-gray-900">Contact Us</h2>
           </div>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to make the switch to solar energy? Get in touch with us for a free consultation 
-            and personalized solar solution for your needs.
+            Ready to harness the power of the sun? Get in touch with us for a free consultation 
+            and customized solar solution tailored to your needs.
           </p>
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12">
           <Card>
             <CardHeader>
-              <CardTitle className="text-2xl text-gray-900">Get in Touch</CardTitle>
+              <CardTitle className="text-2xl text-gray-900">Get Your Free Quote</CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
               <div className="grid grid-cols-2 gap-4">
@@ -32,9 +32,9 @@ const Contact = () => {
               </div>
               <Input placeholder="Email Address" type="email" />
               <Input placeholder="Phone Number" type="tel" />
-              <Textarea placeholder="Tell us about your project..." rows={4} />
+              <Textarea placeholder="Tell us about your solar project requirements..." rows={4} />
               <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
-                Send Message
+                Request Free Consultation
               </Button>
             </CardContent>
           </Card>
@@ -44,9 +44,10 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">📍 Our Location</h3>
                 <p className="text-gray-600">
-                  Gajaha Solar Pvt. Ltd.<br />
-                  Kathmandu, Nepal<br />
-                  P.O. Box: 12345
+                  Gajaha Solar Power<br />
+                  123 Solar Avenue<br />
+                  Green Energy District<br />
+                  City, State 12345
                 </p>
               </CardContent>
             </Card>
@@ -55,10 +56,10 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">📞 Contact Information</h3>
                 <p className="text-gray-600">
-                  <strong>Phone:</strong> +977-1-5555-123<br />
-                  <strong>Mobile:</strong> +977-98-1234-5678<br />
-                  <strong>Email:</strong> info@gajahasolar.com<br />
-                  <strong>Website:</strong> www.gajahasolar.com
+                  <strong>Phone:</strong> (555) 123-SOLAR<br />
+                  <strong>Mobile:</strong> (555) 987-6543<br />
+                  <strong>Email:</strong> info@gajahasolarpower.com<br />
+                  <strong>Website:</strong> www.gajahasolarpower.com
                 </p>
               </CardContent>
             </Card>
@@ -67,9 +68,9 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">🕒 Business Hours</h3>
                 <p className="text-gray-600">
-                  <strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM<br />
+                  <strong>Monday - Friday:</strong> 8:00 AM - 6:00 PM<br />
                   <strong>Saturday:</strong> 9:00 AM - 4:00 PM<br />
-                  <strong>Sunday:</strong> Closed
+                  <strong>Sunday:</strong> By Appointment Only
                 </p>
               </CardContent>
             </Card>
