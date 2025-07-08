@@ -27,12 +27,12 @@ const About = () => {
             </p>
             
             <div className="grid grid-cols-2 gap-6">
-              <Card>
-                <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-bold text-orange-500 mb-2">2000+</div>
-                  <div className="text-gray-600">Projects Completed</div>
-                </CardContent>
-              </Card>
+                <Card>
+                  <CardContent className="p-6 text-center">
+                    <div className="text-3xl font-bold text-orange-500 mb-2">1000+</div>
+                    <div className="text-gray-600">Projects Completed</div>
+                  </CardContent>
+                </Card>
               <Card>
                 <CardContent className="p-6 text-center">
                   <div className="text-3xl font-bold text-orange-500 mb-2">15+</div>
@@ -44,8 +44,8 @@ const About = () => {
           
           <div className="relative">
             <img 
-              src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-              alt="Solar installation team"
+              src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Solar panels array installation"
               className="rounded-2xl shadow-xl"
             />
             <div className="absolute -bottom-6 -left-6 bg-orange-500 text-white p-6 rounded-lg shadow-lg">

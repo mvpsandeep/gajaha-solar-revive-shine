@@ -8,7 +8,7 @@ const Projects = () => {
       title: "Residential Rooftop Installation",
       location: "Suburban Home",
       capacity: "8.5 kW",
-      image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     },
     {
       title: "Commercial Office Building",
@@ -23,10 +23,10 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     },
     {
-      title: "Community Solar Project",
-      location: "Municipal Building",
-      capacity: "75 kW",
-      image: "https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      title: "Solar Water Heating Project",
+      location: "Residential Complex",
+      capacity: "15 kW",
+      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     },
     {
       title: "Agricultural Solar Installation",
@@ -38,7 +38,7 @@ const Projects = () => {
       title: "Educational Institution",
       location: "School Campus",
       capacity: "60 kW",
-      image: "https://images.unsplash.com/photo-1581091870621-fee9725cd7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     }
   ];
 

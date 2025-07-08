@@ -6,13 +6,13 @@ const StatsSection = () => {
   const stats = [
     {
       icon: Zap,
-      number: "100MW+",
+      number: "10GW+",
       label: "Solar Power Installed",
       description: "Clean energy generating capacity"
     },
     {
       icon: Users,
-      number: "2000+",
+      number: "1000+",
       label: "Happy Customers",
       description: "Satisfied clients across India"
     },

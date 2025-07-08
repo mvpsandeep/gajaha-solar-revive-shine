@@ -22,14 +22,14 @@ const Team = () => {
       name: "Mr. Vijay Kumar",
       position: "Chief Adviser",
       experience: "Strategic advisor with comprehensive knowledge in solar project management",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       description: "Strategic excellence and industry expertise specialist"
     },
     {
       name: "Miss Anupama Singh",
       position: "Director - HR",
       experience: "Human resources leader focused on building exceptional teams in renewable energy",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
       description: "HR excellence and organizational development leader"
     }
   ];

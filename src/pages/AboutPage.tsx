@@ -35,14 +35,14 @@ const AboutPage = () => {
             <Card className="text-center p-6 hover:shadow-lg transition-shadow">
               <CardContent className="p-0">
                 <Users className="h-16 w-16 text-orange-500 mx-auto mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">2000+</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">1000+</h3>
                 <p className="text-gray-600">Happy Customers</p>
               </CardContent>
             </Card>
             <Card className="text-center p-6 hover:shadow-lg transition-shadow">
               <CardContent className="p-0">
                 <Zap className="h-16 w-16 text-orange-500 mx-auto mb-4" />
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">100MW+</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">10GW+</h3>
                 <p className="text-gray-600">Solar Installed</p>
               </CardContent>
             </Card>

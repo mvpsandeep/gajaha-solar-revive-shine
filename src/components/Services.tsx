@@ -38,7 +38,7 @@ const Services = () => {
       title: "Maintenance & Support",
       description: "Comprehensive maintenance, monitoring, and support services for optimal performance.",
       icon: "🔧",
-      image: "https://images.unsplash.com/photo-1581091870621-fee9725cd7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+      image: "https://images.unsplash.com/photo-1559302504-87bf06bc6d4c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
     }
   ];
 

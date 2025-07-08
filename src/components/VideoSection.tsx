@@ -23,8 +23,8 @@ const VideoSection = () => {
           <div>
             <div className="relative group cursor-pointer">
               <img 
-                src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                alt="Solar installation video"
+                src="https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                alt="Solar panels array"
                 className="rounded-2xl shadow-2xl group-hover:scale-105 transition-transform duration-300"
               />
               <div className="absolute inset-0 bg-black/30 rounded-2xl flex items-center justify-center group-hover:bg-black/20 transition-colors duration-300">
