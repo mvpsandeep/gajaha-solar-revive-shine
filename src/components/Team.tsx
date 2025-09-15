@@ -1,6 +1,9 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Sun, Linkedin, Mail } from "lucide-react";
+import dnSinghImage from "@/assets/DN_Singh.jpg";
+import kuldeepKumarImage from "@/assets/Kuldeep_Kumar.jpg";
+import gajahaLogo from "@/assets/Gajaha_Logo.jpg";
 
 const Team = () => {
   const teamMembers = [
@@ -8,28 +11,28 @@ const Team = () => {
       name: "Dr. D.N. Singh",
       position: "President",
       experience: "Distinguished leader with extensive experience in renewable energy sector",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: dnSinghImage,
       description: "Visionary leader driving India's solar revolution"
     },
     {
       name: "Mr. Kuldeep Kumar",
       position: "Founder and CEO",
       experience: "Pioneering entrepreneur with deep expertise in solar technology and business development",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: kuldeepKumarImage,
       description: "Founding leader with strategic vision for sustainable energy"
     },
     {
       name: "Mr. Vijay Kumar",
       position: "Chief Adviser",
       experience: "Strategic advisor with comprehensive knowledge in solar project management",
-      image: "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: gajahaLogo,
       description: "Strategic excellence and industry expertise specialist"
     },
     {
       name: "Miss Anupama Singh",
       position: "Director - HR",
       experience: "Human resources leader focused on building exceptional teams in renewable energy",
-      image: "https://images.unsplash.com/photo-1566492031773-4f4e44671d66?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: gajahaLogo,
       description: "HR excellence and organizational development leader"
     }
   ];
