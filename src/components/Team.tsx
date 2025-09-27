@@ -3,6 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Sun, Linkedin, Mail } from "lucide-react";
 import dnSinghImage from "@/assets/DN_Singh.jpg";
 import kuldeepKumarImage from "@/assets/Kuldeep_Kumar.jpg";
+import tarunImage from "@/assets/tarun.jpg";
+import vijayKumarImage from "@/assets/Vijay-kumar.jpg";
 import gajahaLogo from "@/assets/Gajaha_Logo.jpg";
 
 const Team = () => {
@@ -10,28 +12,35 @@ const Team = () => {
     {
       name: "Dr. D.N. Singh",
       position: "President",
-      experience: "Distinguished leader with extensive experience in renewable energy sector",
+      experience: "One of the most prominent leaders in solar PV and Semiconductor technology with 51 years of experience. Ph.D. in semiconductor technology from IIT Delhi and former CTO at Indosolar Limited.",
       image: dnSinghImage,
-      description: "Visionary leader driving India's solar revolution"
+      description: "Leading semiconductor technology expert and solar PV pioneer"
     },
     {
       name: "Mr. Kuldeep Kumar",
       position: "Founder and CEO",
-      experience: "Pioneering entrepreneur with deep expertise in solar technology and business development",
+      experience: "M.Tech from IIT-Roorkee with 21 years of experience in Semiconductor and PV technologies. Expert in PV Systems design, installation and commissioning.",
       image: kuldeepKumarImage,
-      description: "Founding leader with strategic vision for sustainable energy"
+      description: "Visionary founder with deep technical expertise"
+    },
+    {
+      name: "Mr. Tarun Acharya",
+      position: "Sr. Consultant",
+      experience: "Over 30 years of experience in Project Management and Infrastructure Construction. Former Indian Air Force officer with expertise in executing 3000+ MW solar projects since 2006.",
+      image: tarunImage,
+      description: "Senior project management expert with global experience"
     },
     {
       name: "Mr. Vijay Kumar",
       position: "Chief Adviser",
-      experience: "Strategic advisor with comprehensive knowledge in solar project management",
-      image: gajahaLogo,
-      description: "Strategic excellence and industry expertise specialist"
+      experience: "Master's from IIT-Kanpur with 45+ years of experience in entire PV value chain. Expert in technology evaluations and international cooperation in renewable energy.",
+      image: vijayKumarImage,
+      description: "Senior technology adviser with comprehensive PV expertise"
     },
     {
       name: "Miss Anupama Singh",
       position: "Director - HR",
-      experience: "Human resources leader focused on building exceptional teams in renewable energy",
+      experience: "Human resources leader focused on building exceptional teams in renewable energy sector with strategic organizational development expertise.",
       image: gajahaLogo,
       description: "HR excellence and organizational development leader"
     }
@@ -51,7 +60,7 @@ const Team = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8">
           {teamMembers.map((member, index) => (
             <Card key={index} className="text-center hover:shadow-xl transition-all duration-300 hover:scale-105 overflow-hidden group">
               <div className="relative">

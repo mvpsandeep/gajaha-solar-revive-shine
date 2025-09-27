@@ -1,44 +1,48 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Sun } from "lucide-react";
+import greenHouseImage from "@/assets/116kw_Green_house_scientific_project.jpg";
+import balliaImage from "@/assets/10kw_offgrid_Ballia_project.jpg";
+import carportImage from "@/assets/10kw_Caarport_Parking_project.jpg";
+import gangapurImage from "@/assets/Gangapur_project.jpg";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Residential Rooftop Installation",
-      location: "Suburban Home",
-      capacity: "8.5 kW",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      title: "116 KWp Double Glass Green House Scientific Project",
+      location: "Chilkahar, Ballia, UP",
+      capacity: "116 kW",
+      image: greenHouseImage
     },
     {
-      title: "Commercial Office Building",
-      location: "Downtown Business District",
-      capacity: "45 kW",
-      image: "https://images.unsplash.com/photo-1497440001374-f26997328c1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      title: "10 KWp Rooftop Off-Grid Installation",
+      location: "Chilkahar, Ballia, UP",
+      capacity: "10 kW",
+      image: balliaImage
     },
     {
-      title: "Industrial Solar Farm",
-      location: "Manufacturing Facility",
-      capacity: "120 kW",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      title: "10 kW Farm House with Carport Parking",
+      location: "Sec-151, Greater Noida",
+      capacity: "10 kW",
+      image: carportImage
     },
     {
-      title: "Solar Water Heating Project",
+      title: "20 kW On Grid Rooftop Installation",
+      location: "Gangapur, Rajasthan",
+      capacity: "20 kW",
+      image: gangapurImage
+    },
+    {
+      title: "Solar Water Heating System",
       location: "Residential Complex",
       capacity: "15 kW",
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     },
     {
-      title: "Agricultural Solar Installation",
-      location: "Farm Operations",
-      capacity: "25 kW",
-      image: "https://images.unsplash.com/photo-1466611653911-95081537e5b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-    },
-    {
-      title: "Educational Institution",
+      title: "Educational Institution Solar Project",
       location: "School Campus",
-      capacity: "60 kW",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      capacity: "25 kW",
+      image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     }
   ];
 
