@@ -5,6 +5,7 @@ import greenHouseImage from "@/assets/116kw_Green_house_scientific_project.jpg";
 import balliaImage from "@/assets/10kw_offgrid_Ballia_project.jpg";
 import carportImage from "@/assets/10kw_Caarport_Parking_project.jpg";
 import gangapurImage from "@/assets/Gangapur_project.jpg";
+import lotusValleyImage from "@/assets/lotus_valley_school.jpg";
 
 const Projects = () => {
   const projects = [
@@ -39,10 +40,10 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     },
     {
-      title: "Educational Institution Solar Project",
+      title: "Lotus Valley School Project",
       location: "School Campus",
       capacity: "25 kW",
-      image: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: lotusValleyImage
     }
   ];
 
