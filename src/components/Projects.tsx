@@ -6,6 +6,7 @@ import balliaImage from "@/assets/10kw_offgrid_Ballia_project.jpg";
 import carportImage from "@/assets/10kw_Caarport_Parking_project.jpg";
 import gangapurImage from "@/assets/Gangapur_project.jpg";
 import lotusValleyImage from "@/assets/lotus_valley_school.jpg";
+import sidwalImage from "@/assets/sidwal.jpg";
 
 const Projects = () => {
   const projects = [
@@ -34,10 +35,10 @@ const Projects = () => {
       image: gangapurImage
     },
     {
-      title: "Solar Water Heating System",
-      location: "Residential Complex",
-      capacity: "15 kW",
-      image: "https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      title: "500kw Sidwal Refrigeration Industries",
+      location: "Industrial Complex",
+      capacity: "500 kW",
+      image: sidwalImage
     },
     {
       title: "Lotus Valley School Project",
